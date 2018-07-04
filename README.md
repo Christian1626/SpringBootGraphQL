@@ -16,7 +16,7 @@
 Describe what data can be queried:
 [https://graphql.org/learn/schema/](https://graphql.org/learn/schema/)
 
-### Resolvers
+### Resolvers
 
 - **GraphQLResolver**: to resolve complex types. For scalar fields, getter and setter methods will be enough. However, for fields with complex types (like author in Book), you have to use Resolver objects to resolve the value of those fields.
 Resolver objects implement the interface GraphQLResolver.
